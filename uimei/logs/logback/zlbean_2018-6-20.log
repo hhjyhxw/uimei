@@ -1,0 +1,10 @@
+2018-06-20 10:22:14 [main] [INFO][zhumeng.com.uimei.App][logStartupProfileInfo][661]-> No active profile set, falling back to default profiles: default
+2018-06-20 10:22:20 [main] [INFO][zhumeng.com.uimei.App][logStarted][57]-> Started App in 8.673 seconds (JVM running for 9.258)
+2018-06-20 10:22:40 [http-nio-8080-exec-2] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.admin.AdminLoginController
+Method    : index
+RequestMethod    : GET
+Params    : 
+URI       : //admin
+AllURI    : http://localhost:8080//admin
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+

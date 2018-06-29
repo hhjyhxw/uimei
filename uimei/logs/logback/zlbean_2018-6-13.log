@@ -1,0 +1,465 @@
+2018-06-13 10:18:56 [main] [INFO][zhumeng.com.uimei.App][logStartupProfileInfo][661]-> No active profile set, falling back to default profiles: default
+2018-06-13 10:19:08 [main] [INFO][zhumeng.com.uimei.App][logStarted][57]-> Started App in 15.822 seconds (JVM running for 17.222)
+2018-06-13 10:32:37 [main] [INFO][zhumeng.com.uimei.App][logStartupProfileInfo][661]-> No active profile set, falling back to default profiles: default
+2018-06-13 10:32:44 [main] [INFO][zhumeng.com.uimei.App][logStarted][57]-> Started App in 9.091 seconds (JVM running for 9.679)
+2018-06-13 10:34:45 [main] [INFO][zhumeng.com.uimei.App][logStartupProfileInfo][661]-> No active profile set, falling back to default profiles: default
+2018-06-13 10:34:52 [main] [INFO][zhumeng.com.uimei.App][logStarted][57]-> Started App in 8.767 seconds (JVM running for 9.337)
+2018-06-13 10:36:33 [main] [INFO][zhumeng.com.uimei.App][logStartupProfileInfo][661]-> No active profile set, falling back to default profiles: default
+2018-06-13 10:36:40 [main] [INFO][zhumeng.com.uimei.App][logStarted][57]-> Started App in 9.527 seconds (JVM running for 10.1)
+2018-06-13 10:38:19 [main] [INFO][zhumeng.com.uimei.App][logStartupProfileInfo][661]-> No active profile set, falling back to default profiles: default
+2018-06-13 10:38:27 [main] [INFO][zhumeng.com.uimei.App][logStarted][57]-> Started App in 10.474 seconds (JVM running for 11.501)
+2018-06-13 10:45:12 [main] [INFO][zhumeng.com.uimei.App][logStartupProfileInfo][661]-> No active profile set, falling back to default profiles: default
+2018-06-13 10:45:19 [main] [INFO][zhumeng.com.uimei.App][logStarted][57]-> Started App in 9.776 seconds (JVM running for 10.339)
+2018-06-13 10:53:44 [main] [INFO][zhumeng.com.uimei.App][logStartupProfileInfo][661]-> No active profile set, falling back to default profiles: default
+2018-06-13 10:53:52 [main] [INFO][zhumeng.com.uimei.App][logStarted][57]-> Started App in 10.339 seconds (JVM running for 11.042)
+2018-06-13 10:56:39 [main] [INFO][zhumeng.com.uimei.App][logStartupProfileInfo][661]-> No active profile set, falling back to default profiles: default
+2018-06-13 10:57:32 [main] [INFO][zhumeng.com.uimei.App][logStartupProfileInfo][661]-> No active profile set, falling back to default profiles: default
+2018-06-13 10:57:40 [main] [INFO][zhumeng.com.uimei.App][logStarted][57]-> Started App in 10.369 seconds (JVM running for 10.985)
+2018-06-13 11:29:14 [main] [INFO][zhumeng.com.uimei.App][logStartupProfileInfo][661]-> No active profile set, falling back to default profiles: default
+2018-06-13 11:29:22 [main] [INFO][zhumeng.com.uimei.App][logStarted][57]-> Started App in 10.396 seconds (JVM running for 11.173)
+2018-06-13 11:31:19 [main] [INFO][zhumeng.com.uimei.App][logStartupProfileInfo][661]-> No active profile set, falling back to default profiles: default
+2018-06-13 11:31:26 [main] [INFO][zhumeng.com.uimei.App][logStarted][57]-> Started App in 8.932 seconds (JVM running for 9.499)
+2018-06-13 11:32:02 [main] [INFO][zhumeng.com.uimei.App][logStartupProfileInfo][661]-> No active profile set, falling back to default profiles: default
+2018-06-13 11:32:10 [main] [INFO][zhumeng.com.uimei.App][logStarted][57]-> Started App in 10.484 seconds (JVM running for 11.174)
+2018-06-13 11:34:15 [main] [INFO][zhumeng.com.uimei.App][logStartupProfileInfo][661]-> No active profile set, falling back to default profiles: default
+2018-06-13 11:34:22 [main] [INFO][zhumeng.com.uimei.App][logStarted][57]-> Started App in 9.12 seconds (JVM running for 9.86)
+2018-06-13 11:34:34 [http-nio-8080-exec-3] [INFO][zhumeng.com.uimei.web.wx.WeixinMaterialController][list][40]-> ========http://localhost:8080/backpage/wxImageText/weixin_material_list
+2018-06-13 11:34:46 [http-nio-8080-exec-2] [INFO][zhumeng.com.uimei.web.wx.WeixinMaterialController][list][40]-> ========http://localhost:8080/backpage/wxImageText/weixin_material_list
+2018-06-13 11:37:15 [main] [INFO][zhumeng.com.uimei.App][logStartupProfileInfo][661]-> No active profile set, falling back to default profiles: default
+2018-06-13 11:37:22 [main] [INFO][zhumeng.com.uimei.App][logStarted][57]-> Started App in 9.073 seconds (JVM running for 9.629)
+2018-06-13 11:37:26 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][70]-> reqURL===http://localhost:8080/admin
+2018-06-13 11:37:26 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][72]-> ip===0:0:0:0:0:0:0:1
+2018-06-13 11:37:26 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][101]-> Controller: zhumeng.com.uimei.web.admin.AdminLoginController
+Method    : index
+RequestMethod    : GET
+Params    : 
+URI       : /admin
+AllURI    : http://localhost:8080/admin
+request IP: 0:0:0:0:0:0:0:1
+
+2018-06-13 11:37:43 [http-nio-8080-exec-7] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][70]-> reqURL===http://localhost:8080/backpage/wxImageText/weixin_material_list
+2018-06-13 11:37:43 [http-nio-8080-exec-7] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][72]-> ip===0:0:0:0:0:0:0:1
+2018-06-13 11:37:43 [http-nio-8080-exec-7] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][101]-> Controller: zhumeng.com.uimei.web.wx.WeixinMaterialController
+Method    : list
+RequestMethod    : GET
+Params    : 
+URI       : /backpage/wxImageText/weixin_material_list
+AllURI    : http://localhost:8080/backpage/wxImageText/weixin_material_list
+request IP: 0:0:0:0:0:0:0:1
+
+2018-06-13 11:37:57 [http-nio-8080-exec-10] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][70]-> reqURL===http://localhost:8080//backpage/wxImageText/beforeAddWeixinMaterial
+2018-06-13 11:37:57 [http-nio-8080-exec-10] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][72]-> ip===0:0:0:0:0:0:0:1
+2018-06-13 11:37:57 [http-nio-8080-exec-10] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][101]-> Controller: zhumeng.com.uimei.web.wx.WeixinMaterialController
+Method    : beforeAddWeixinMaterial
+RequestMethod    : GET
+Params    : 
+URI       : //backpage/wxImageText/beforeAddWeixinMaterial
+AllURI    : http://localhost:8080//backpage/wxImageText/beforeAddWeixinMaterial
+request IP: 0:0:0:0:0:0:0:1
+
+2018-06-13 11:38:11 [http-nio-8080-exec-10] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][70]-> reqURL===http://localhost:8080//backpage/wxImageText/ajaxUploadFile
+2018-06-13 11:38:11 [http-nio-8080-exec-10] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][72]-> ip===0:0:0:0:0:0:0:1
+2018-06-13 11:38:11 [http-nio-8080-exec-10] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][101]-> Controller: zhumeng.com.uimei.web.wx.WeixinMaterialController
+Method    : ajaxUploadFile
+RequestMethod    : POST
+Params    : 
+URI       : //backpage/wxImageText/ajaxUploadFile
+AllURI    : http://localhost:8080//backpage/wxImageText/ajaxUploadFile
+request IP: 0:0:0:0:0:0:0:1
+
+2018-06-13 11:38:11 [http-nio-8080-exec-10] [ERROR][zhumeng.com.uimei.web.wx.WeixinMaterialController][ajaxUploadFile][109]-> 上传文件根路径===/upload/imagetext
+2018-06-13 11:38:11 [http-nio-8080-exec-10] [ERROR][zhumeng.com.uimei.web.wx.WeixinMaterialController][ajaxUploadFile][121]-> 上传文件成功
+2018-06-13 11:38:16 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][70]-> reqURL===http://localhost:8080/backpage/wxImageText/saveWeixinMaterial
+2018-06-13 11:38:16 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][72]-> ip===0:0:0:0:0:0:0:1
+2018-06-13 11:38:16 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][101]-> Controller: zhumeng.com.uimei.web.wx.WeixinMaterialController
+Method    : saveWeixinMaterial
+RequestMethod    : POST
+Params    : 
+URI       : /backpage/wxImageText/saveWeixinMaterial
+AllURI    : http://localhost:8080/backpage/wxImageText/saveWeixinMaterial
+request IP: 0:0:0:0:0:0:0:1
+
+2018-06-13 11:38:16 [http-nio-8080-exec-1] [ERROR][zhumeng.com.uimei.service.wx.impl.TWxImageTextServiceImpl][saveWeixinMaterial][73]-> uplaoad_image1=====================https://api.weixin.qq.com/cgi-bin/media/uploadimg?access_token=ACCESS_TOKEN
+2018-06-13 11:38:16 [http-nio-8080-exec-1] [ERROR][zhumeng.com.uimei.service.wx.impl.TWxImageTextServiceImpl][saveWeixinMaterial][77]-> uplaoad_image2==================https://api.weixin.qq.com/cgi-bin/media/uploadimg?access_token=ACCESS_TOKEN
+2018-06-13 11:38:16 [http-nio-8080-exec-3] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][70]-> reqURL===http://localhost:8080/backpage/wxImageText/weixin_material_list
+2018-06-13 11:38:16 [http-nio-8080-exec-3] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][72]-> ip===0:0:0:0:0:0:0:1
+2018-06-13 11:38:16 [http-nio-8080-exec-3] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][101]-> Controller: zhumeng.com.uimei.web.wx.WeixinMaterialController
+Method    : list
+RequestMethod    : GET
+Params    : 
+URI       : /backpage/wxImageText/weixin_material_list
+AllURI    : http://localhost:8080/backpage/wxImageText/weixin_material_list
+request IP: 0:0:0:0:0:0:0:1
+
+2018-06-13 11:44:35 [http-nio-8080-exec-8] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][70]-> reqURL===http://localhost:8080/admin
+2018-06-13 11:44:35 [http-nio-8080-exec-8] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][72]-> ip===0:0:0:0:0:0:0:1
+2018-06-13 11:44:35 [http-nio-8080-exec-8] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][101]-> Controller: zhumeng.com.uimei.web.admin.AdminLoginController
+Method    : index
+RequestMethod    : GET
+Params    : 
+URI       : /admin
+AllURI    : http://localhost:8080/admin
+request IP: 0:0:0:0:0:0:0:1
+
+2018-06-13 11:44:47 [main] [INFO][zhumeng.com.uimei.App][logStartupProfileInfo][661]-> No active profile set, falling back to default profiles: default
+2018-06-13 11:44:54 [main] [INFO][zhumeng.com.uimei.App][logStarted][57]-> Started App in 8.81 seconds (JVM running for 9.369)
+2018-06-13 11:45:01 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][114]-> Controller: zhumeng.com.uimei.web.admin.AdminLoginController
+Method    : index
+RequestMethod    : GET
+Params    : 
+URI       : /admin
+AllURI    : http://localhost:8080/admin
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 11:45:03 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][67]-> [zhumeng.com.uimei.web.admin.AdminLoginController.index] 执行耗时 : 2585ms
+2018-06-13 11:45:16 [http-nio-8080-exec-6] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][114]-> Controller: zhumeng.com.uimei.web.wx.WeixinMaterialController
+Method    : list
+RequestMethod    : GET
+Params    : 
+URI       : /backpage/wxImageText/weixin_material_list
+AllURI    : http://localhost:8080/backpage/wxImageText/weixin_material_list
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 11:45:17 [http-nio-8080-exec-6] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WeixinMaterialController.list] 执行耗时 : 183ms
+2018-06-13 12:00:18 [http-nio-8080-exec-9] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][114]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : list
+RequestMethod    : GET
+Params    : 
+URI       : /backpage/wxApp/wx_app_list
+AllURI    : http://localhost:8080/backpage/wxApp/wx_app_list
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 12:00:20 [http-nio-8080-exec-9] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][67]-> [zhumeng.com.uimei.web.wx.WxAppController.list] 执行耗时 : 2048ms
+2018-06-13 12:00:26 [http-nio-8080-exec-10] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][114]-> Controller: zhumeng.com.uimei.web.admin.AdminLoginController
+Method    : index
+RequestMethod    : GET
+Params    : 
+URI       : /admin
+AllURI    : http://localhost:8080/admin
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 12:00:27 [http-nio-8080-exec-10] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [AdminLoginController.index] 执行耗时 : 145ms
+2018-06-13 12:00:31 [http-nio-8080-exec-2] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][114]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : list
+RequestMethod    : GET
+Params    : 
+URI       : /backpage/wxApp/wx_app_list
+AllURI    : http://localhost:8080/backpage/wxApp/wx_app_list
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 12:00:31 [http-nio-8080-exec-2] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.list] 执行耗时 : 50ms
+2018-06-13 12:02:03 [main] [INFO][zhumeng.com.uimei.App][logStartupProfileInfo][661]-> No active profile set, falling back to default profiles: default
+2018-06-13 12:02:11 [main] [INFO][zhumeng.com.uimei.App][logStarted][57]-> Started App in 10.568 seconds (JVM running for 11.165)
+2018-06-13 12:02:15 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][115]-> Controller: zhumeng.com.uimei.web.admin.AdminLoginController
+Method    : index
+RequestMethod    : GET
+Params    : 
+URI       : /admin
+AllURI    : http://localhost:8080/admin
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 12:02:18 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][67]-> [zhumeng.com.uimei.web.admin.AdminLoginController.index] 执行耗时 : 2446ms
+2018-06-13 12:02:25 [http-nio-8080-exec-4] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][115]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : list
+RequestMethod    : GET
+Params    : 
+URI       : /backpage/wxApp/wx_app_list
+AllURI    : http://localhost:8080/backpage/wxApp/wx_app_list
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 12:02:25 [http-nio-8080-exec-4] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.list] 执行耗时 : 189ms
+2018-06-13 14:33:04 [main] [INFO][zhumeng.com.uimei.App][logStartupProfileInfo][661]-> No active profile set, falling back to default profiles: default
+2018-06-13 14:33:11 [main] [INFO][zhumeng.com.uimei.App][logStarted][57]-> Started App in 9.206 seconds (JVM running for 9.758)
+2018-06-13 14:33:33 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][115]-> Controller: zhumeng.com.uimei.web.admin.AdminLoginController
+Method    : index
+RequestMethod    : GET
+Params    : 
+URI       : /admin
+AllURI    : http://localhost:8080/admin
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:33:36 [http-nio-8080-exec-5] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][115]-> Controller: zhumeng.com.uimei.web.admin.AdminLoginController
+Method    : index
+RequestMethod    : GET
+Params    : 
+URI       : /admin
+AllURI    : http://localhost:8080/admin
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:33:36 [http-nio-8080-exec-5] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [AdminLoginController.index] 执行耗时 : 144ms
+2018-06-13 14:33:40 [http-nio-8080-exec-6] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][115]-> Controller: zhumeng.com.uimei.web.wx.WeixinMaterialController
+Method    : list
+RequestMethod    : GET
+Params    : 
+URI       : /backpage/wxImageText/weixin_material_list
+AllURI    : http://localhost:8080/backpage/wxImageText/weixin_material_list
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:33:40 [http-nio-8080-exec-6] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WeixinMaterialController.list] 执行耗时 : 269ms
+2018-06-13 14:34:16 [main] [INFO][zhumeng.com.uimei.App][logStartupProfileInfo][661]-> No active profile set, falling back to default profiles: default
+2018-06-13 14:34:23 [main] [INFO][zhumeng.com.uimei.App][logStarted][57]-> Started App in 9.058 seconds (JVM running for 9.664)
+2018-06-13 14:34:34 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.admin.AdminLoginController
+Method    : index
+RequestMethod    : GET
+Params    : 
+URI       : /admin
+AllURI    : http://localhost:8080/admin
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:34:36 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][67]-> [zhumeng.com.uimei.web.admin.AdminLoginController.index] 执行耗时 : 2264ms
+2018-06-13 14:34:38 [http-nio-8080-exec-3] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WeixinMaterialController
+Method    : list
+RequestMethod    : GET
+Params    : 
+URI       : /backpage/wxImageText/weixin_material_list
+AllURI    : http://localhost:8080/backpage/wxImageText/weixin_material_list
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:34:38 [http-nio-8080-exec-3] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WeixinMaterialController.list] 执行耗时 : 141ms
+2018-06-13 14:34:46 [http-nio-8080-exec-5] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : list
+RequestMethod    : GET
+Params    : 
+URI       : /backpage/wxApp/wx_app_list
+AllURI    : http://localhost:8080/backpage/wxApp/wx_app_list
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:34:46 [http-nio-8080-exec-5] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.list] 执行耗时 : 29ms
+2018-06-13 14:45:17 [main] [INFO][zhumeng.com.uimei.App][logStartupProfileInfo][661]-> No active profile set, falling back to default profiles: default
+2018-06-13 14:45:24 [main] [INFO][zhumeng.com.uimei.App][logStarted][57]-> Started App in 8.927 seconds (JVM running for 9.524)
+2018-06-13 14:45:37 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.admin.AdminLoginController
+Method    : index
+RequestMethod    : GET
+Params    : 
+URI       : /admin
+AllURI    : http://localhost:8080/admin
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:45:39 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][67]-> [zhumeng.com.uimei.web.admin.AdminLoginController.index] 执行耗时 : 2256ms
+2018-06-13 14:45:42 [http-nio-8080-exec-3] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : list
+RequestMethod    : GET
+Params    : 
+URI       : /backpage/wxApp/wx_app_list
+AllURI    : http://localhost:8080/backpage/wxApp/wx_app_list
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:45:42 [http-nio-8080-exec-3] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.list] 执行耗时 : 136ms
+2018-06-13 14:49:45 [main] [INFO][zhumeng.com.uimei.App][logStartupProfileInfo][661]-> No active profile set, falling back to default profiles: default
+2018-06-13 14:49:52 [main] [INFO][zhumeng.com.uimei.App][logStarted][57]-> Started App in 8.995 seconds (JVM running for 9.525)
+2018-06-13 14:50:17 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.admin.AdminLoginController
+Method    : index
+RequestMethod    : GET
+Params    : 
+URI       : /admin
+AllURI    : http://localhost:8080/admin
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:50:19 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][67]-> [zhumeng.com.uimei.web.admin.AdminLoginController.index] 执行耗时 : 2553ms
+2018-06-13 14:50:24 [http-nio-8080-exec-3] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : list
+RequestMethod    : GET
+Params    : 
+URI       : /backpage/wxApp/wx_app_list
+AllURI    : http://localhost:8080/backpage/wxApp/wx_app_list
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:50:24 [http-nio-8080-exec-3] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.list] 执行耗时 : 107ms
+2018-06-13 14:52:33 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.admin.AdminLoginController
+Method    : index
+RequestMethod    : GET
+Params    : 
+URI       : /admin
+AllURI    : http://localhost:8080/admin
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:52:34 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [AdminLoginController.index] 执行耗时 : 170ms
+2018-06-13 14:52:35 [http-nio-8080-exec-8] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : list
+RequestMethod    : GET
+Params    : 
+URI       : /backpage/wxApp/wx_app_list
+AllURI    : http://localhost:8080/backpage/wxApp/wx_app_list
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:52:35 [http-nio-8080-exec-8] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.list] 执行耗时 : 31ms
+2018-06-13 14:52:37 [http-nio-8080-exec-8] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : toinput
+RequestMethod    : GET
+Params    : 
+URI       : //backpage/wxApp/toinput
+AllURI    : http://localhost:8080//backpage/wxApp/toinput
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:52:37 [http-nio-8080-exec-8] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.toinput] 执行耗时 : 2ms
+2018-06-13 14:52:46 [http-nio-8080-exec-5] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : input
+RequestMethod    : POST
+Params    : 
+URI       : //backpage/wxApp/input
+AllURI    : http://localhost:8080//backpage/wxApp/input
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:52:47 [http-nio-8080-exec-5] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.input] 执行耗时 : 127ms
+2018-06-13 14:52:47 [http-nio-8080-exec-7] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : list
+RequestMethod    : GET
+Params    : 
+URI       : /backpage/wxApp/wx_app_list
+AllURI    : http://localhost:8080/backpage/wxApp/wx_app_list
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:52:47 [http-nio-8080-exec-7] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.list] 执行耗时 : 63ms
+2018-06-13 14:52:49 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : toinput
+RequestMethod    : GET
+Params    : 
+URI       : //backpage/wxApp/toinput
+AllURI    : http://localhost:8080//backpage/wxApp/toinput
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:52:49 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.toinput] 执行耗时 : 35ms
+2018-06-13 14:53:48 [http-nio-8080-exec-2] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : input
+RequestMethod    : POST
+Params    : 
+URI       : //backpage/wxApp/input
+AllURI    : http://localhost:8080//backpage/wxApp/input
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:53:49 [http-nio-8080-exec-2] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.input] 执行耗时 : 195ms
+2018-06-13 14:53:49 [http-nio-8080-exec-2] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : list
+RequestMethod    : GET
+Params    : 
+URI       : /backpage/wxApp/wx_app_list
+AllURI    : http://localhost:8080/backpage/wxApp/wx_app_list
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:53:49 [http-nio-8080-exec-2] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.list] 执行耗时 : 61ms
+2018-06-13 14:53:50 [http-nio-8080-exec-2] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : toinput
+RequestMethod    : GET
+Params    : 
+URI       : //backpage/wxApp/toinput
+AllURI    : http://localhost:8080//backpage/wxApp/toinput
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:53:50 [http-nio-8080-exec-2] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.toinput] 执行耗时 : 34ms
+2018-06-13 14:53:55 [http-nio-8080-exec-7] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : input
+RequestMethod    : POST
+Params    : 
+URI       : //backpage/wxApp/input
+AllURI    : http://localhost:8080//backpage/wxApp/input
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:53:55 [http-nio-8080-exec-7] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.input] 执行耗时 : 65ms
+2018-06-13 14:53:55 [http-nio-8080-exec-7] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : list
+RequestMethod    : GET
+Params    : 
+URI       : /backpage/wxApp/wx_app_list
+AllURI    : http://localhost:8080/backpage/wxApp/wx_app_list
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:53:55 [http-nio-8080-exec-7] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.list] 执行耗时 : 61ms
+2018-06-13 14:53:57 [http-nio-8080-exec-4] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : toinput
+RequestMethod    : GET
+Params    : 
+URI       : //backpage/wxApp/toinput
+AllURI    : http://localhost:8080//backpage/wxApp/toinput
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:53:57 [http-nio-8080-exec-4] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.toinput] 执行耗时 : 34ms
+2018-06-13 14:54:07 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : input
+RequestMethod    : POST
+Params    : 
+URI       : //backpage/wxApp/input
+AllURI    : http://localhost:8080//backpage/wxApp/input
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:54:07 [http-nio-8080-exec-1] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.input] 执行耗时 : 68ms
+2018-06-13 14:54:07 [http-nio-8080-exec-9] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : list
+RequestMethod    : GET
+Params    : 
+URI       : /backpage/wxApp/wx_app_list
+AllURI    : http://localhost:8080/backpage/wxApp/wx_app_list
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:54:07 [http-nio-8080-exec-9] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.list] 执行耗时 : 59ms
+2018-06-13 14:54:41 [http-nio-8080-exec-3] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.admin.AdminLoginController
+Method    : index
+RequestMethod    : GET
+Params    : 
+URI       : /admin
+AllURI    : http://localhost:8080/admin
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:54:42 [http-nio-8080-exec-3] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [AdminLoginController.index] 执行耗时 : 147ms
+2018-06-13 14:54:46 [http-nio-8080-exec-8] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : list
+RequestMethod    : GET
+Params    : 
+URI       : /backpage/wxApp/wx_app_list
+AllURI    : http://localhost:8080/backpage/wxApp/wx_app_list
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:54:46 [http-nio-8080-exec-8] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.list] 执行耗时 : 63ms
+2018-06-13 14:54:47 [http-nio-8080-exec-8] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : toinput
+RequestMethod    : GET
+Params    : 
+URI       : //backpage/wxApp/toinput
+AllURI    : http://localhost:8080//backpage/wxApp/toinput
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:54:47 [http-nio-8080-exec-8] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.toinput] 执行耗时 : 37ms
+2018-06-13 14:54:59 [http-nio-8080-exec-6] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.admin.AdminLoginController
+Method    : index
+RequestMethod    : GET
+Params    : 
+URI       : /admin
+AllURI    : http://localhost:8080/admin
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:55:01 [http-nio-8080-exec-6] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][67]-> [zhumeng.com.uimei.web.admin.AdminLoginController.index] 执行耗时 : 2232ms
+2018-06-13 14:55:02 [http-nio-8080-exec-2] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : list
+RequestMethod    : GET
+Params    : 
+URI       : /backpage/wxApp/wx_app_list
+AllURI    : http://localhost:8080/backpage/wxApp/wx_app_list
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:55:03 [http-nio-8080-exec-2] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.list] 执行耗时 : 136ms
+2018-06-13 14:55:04 [http-nio-8080-exec-9] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : toinput
+RequestMethod    : GET
+Params    : 
+URI       : //backpage/wxApp/toinput
+AllURI    : http://localhost:8080//backpage/wxApp/toinput
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:55:04 [http-nio-8080-exec-9] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.toinput] 执行耗时 : 32ms
+2018-06-13 14:55:08 [http-nio-8080-exec-8] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : input
+RequestMethod    : POST
+Params    : 
+URI       : //backpage/wxApp/input
+AllURI    : http://localhost:8080//backpage/wxApp/input
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:55:08 [http-nio-8080-exec-8] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.input] 执行耗时 : 66ms
+2018-06-13 14:55:08 [http-nio-8080-exec-6] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][printlnVisitInfo][118]-> Controller: zhumeng.com.uimei.web.wx.WxAppController
+Method    : list
+RequestMethod    : GET
+Params    : 
+URI       : /backpage/wxApp/wx_app_list
+AllURI    : http://localhost:8080/backpage/wxApp/wx_app_list
+request IP: 0:0:0:0:0:0:0:1__0:0:0:0:0:0:0:1
+
+2018-06-13 14:55:08 [http-nio-8080-exec-6] [INFO][zhumeng.com.uimei.interceptor.PermissionsInterceptor][postHandle][70]-> [WxAppController.list] 执行耗时 : 59ms

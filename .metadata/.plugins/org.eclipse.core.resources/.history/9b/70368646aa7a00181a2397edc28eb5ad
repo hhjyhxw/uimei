@@ -1,0 +1,13 @@
+package zhumeng.com.uimei.interceptor;
+
+/**
+ * @Title: ServletRequestCglibProxy.java
+ * @Package zhumeng.com.uimei.interceptor
+ * @Description: TODO(用一句话描述该文件做什么)
+ * @author z
+ * @date 2018年6月28日
+ * @version V1.0
+ */
+public class ServletRequestCglibProxy {
+
+}

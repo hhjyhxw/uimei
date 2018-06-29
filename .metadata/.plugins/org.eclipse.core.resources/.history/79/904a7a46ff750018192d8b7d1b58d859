@@ -1,0 +1,48 @@
+package zhumeng.com.uimei.interceptor;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.web.servlet.HandlerInterceptor;
+import org.springframework.web.servlet.ModelAndView;
+
+/**
+ *对中文进行处理
+ */
+public class CharaterInterceptor implements HandlerInterceptor {
+	
+	
+	public final static Logger log = LoggerFactory.getLogger(CharaterInterceptor.class);
+	
+	public boolean preHandle(HttpServletRequest request,
+			HttpServletResponse response, Object handler) throws Exception {
+		 long startTime = System.currentTimeMillis();
+		
+		 //解决以Post方式提交的中文乱码问题
+         request.setCharacterEncoding("UTF-8");
+         response.setCharacterEncoding("UTF-8");
+         response.setContentType("text/html;charset=UTF-8");
+         //获取获取HttpServletRequest对象的代理对象
+		          ServletRequest requestProxy = getHttpServletRequestProxy(request);
+		return true;
+	}
+
+	private ServletRequest getHttpServletRequestProxy(HttpServletRequest request) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void postHandle(HttpServletRequest request,
+			HttpServletResponse response, Object handler,
+			ModelAndView modelAndView) throws Exception {
+		
+		
+	}
+
+	public void afterCompletion(HttpServletRequest request,
+			HttpServletResponse response, Object handler, Exception ex)
+			throws Exception {
+	}
+}

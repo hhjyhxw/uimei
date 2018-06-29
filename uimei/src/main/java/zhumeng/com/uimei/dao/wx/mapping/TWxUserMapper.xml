@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="zhumeng.com.uimei.dao.wx.TWxUserMapper" >
+  <resultMap id="BaseResultMap" type="zhumeng.com.uimei.model.dbo.wx.TWxUser" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="openid" property="openid" jdbcType="VARCHAR" />
+    <result column="xc_openid" property="xcOpenid" jdbcType="VARCHAR" />
+    <result column="unionid" property="unionid" jdbcType="VARCHAR" />
+    <result column="nick" property="nick" jdbcType="VARCHAR" />
+    <result column="pic" property="pic" jdbcType="VARCHAR" />
+    <result column="sex" property="sex" jdbcType="VARCHAR" />
+    <result column="subscribe_flag" property="subscribeFlag" jdbcType="VARCHAR" />
+    <result column="subscribe_date" property="subscribeDate" jdbcType="TIMESTAMP" />
+    <result column="unsubscribe_date" property="unsubscribeDate" jdbcType="TIMESTAMP" />
+    <result column="last_ip" property="lastIp" jdbcType="VARCHAR" />
+    <result column="last_date" property="lastDate" jdbcType="TIMESTAMP" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="telphone" property="telphone" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, openid, xc_openid, unionid, nick, pic, sex, subscribe_flag, subscribe_date, unsubscribe_date, 
+    last_ip, last_date, name, telphone
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from t_wx_user
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from t_wx_user
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="zhumeng.com.uimei.model.dbo.wx.TWxUser" >
+    insert into t_wx_user (id, openid, xc_openid, 
+      unionid, nick, pic, 
+      sex, subscribe_flag, subscribe_date, 
+      unsubscribe_date, last_ip, last_date, 
+      name, telphone)
+    values (#{id,jdbcType=BIGINT}, #{openid,jdbcType=VARCHAR}, #{xcOpenid,jdbcType=VARCHAR}, 
+      #{unionid,jdbcType=VARCHAR}, #{nick,jdbcType=VARCHAR}, #{pic,jdbcType=VARCHAR}, 
+      #{sex,jdbcType=VARCHAR}, #{subscribeFlag,jdbcType=VARCHAR}, #{subscribeDate,jdbcType=TIMESTAMP}, 
+      #{unsubscribeDate,jdbcType=TIMESTAMP}, #{lastIp,jdbcType=VARCHAR}, #{lastDate,jdbcType=TIMESTAMP}, 
+      #{name,jdbcType=VARCHAR}, #{telphone,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="zhumeng.com.uimei.model.dbo.wx.TWxUser" >
+    insert into t_wx_user
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="openid != null" >
+        openid,
+      </if>
+      <if test="xcOpenid != null" >
+        xc_openid,
+      </if>
+      <if test="unionid != null" >
+        unionid,
+      </if>
+      <if test="nick != null" >
+        nick,
+      </if>
+      <if test="pic != null" >
+        pic,
+      </if>
+      <if test="sex != null" >
+        sex,
+      </if>
+      <if test="subscribeFlag != null" >
+        subscribe_flag,
+      </if>
+      <if test="subscribeDate != null" >
+        subscribe_date,
+      </if>
+      <if test="unsubscribeDate != null" >
+        unsubscribe_date,
+      </if>
+      <if test="lastIp != null" >
+        last_ip,
+      </if>
+      <if test="lastDate != null" >
+        last_date,
+      </if>
+      <if test="name != null" >
+        name,
+      </if>
+      <if test="telphone != null" >
+        telphone,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="openid != null" >
+        #{openid,jdbcType=VARCHAR},
+      </if>
+      <if test="xcOpenid != null" >
+        #{xcOpenid,jdbcType=VARCHAR},
+      </if>
+      <if test="unionid != null" >
+        #{unionid,jdbcType=VARCHAR},
+      </if>
+      <if test="nick != null" >
+        #{nick,jdbcType=VARCHAR},
+      </if>
+      <if test="pic != null" >
+        #{pic,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null" >
+        #{sex,jdbcType=VARCHAR},
+      </if>
+      <if test="subscribeFlag != null" >
+        #{subscribeFlag,jdbcType=VARCHAR},
+      </if>
+      <if test="subscribeDate != null" >
+        #{subscribeDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="unsubscribeDate != null" >
+        #{unsubscribeDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="lastIp != null" >
+        #{lastIp,jdbcType=VARCHAR},
+      </if>
+      <if test="lastDate != null" >
+        #{lastDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="name != null" >
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="telphone != null" >
+        #{telphone,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="zhumeng.com.uimei.model.dbo.wx.TWxUser" >
+    update t_wx_user
+    <set >
+      <if test="openid != null" >
+        openid = #{openid,jdbcType=VARCHAR},
+      </if>
+      <if test="xcOpenid != null" >
+        xc_openid = #{xcOpenid,jdbcType=VARCHAR},
+      </if>
+      <if test="unionid != null" >
+        unionid = #{unionid,jdbcType=VARCHAR},
+      </if>
+      <if test="nick != null" >
+        nick = #{nick,jdbcType=VARCHAR},
+      </if>
+      <if test="pic != null" >
+        pic = #{pic,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null" >
+        sex = #{sex,jdbcType=VARCHAR},
+      </if>
+      <if test="subscribeFlag != null" >
+        subscribe_flag = #{subscribeFlag,jdbcType=VARCHAR},
+      </if>
+      <if test="subscribeDate != null" >
+        subscribe_date = #{subscribeDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="unsubscribeDate != null" >
+        unsubscribe_date = #{unsubscribeDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="lastIp != null" >
+        last_ip = #{lastIp,jdbcType=VARCHAR},
+      </if>
+      <if test="lastDate != null" >
+        last_date = #{lastDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="name != null" >
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="telphone != null" >
+        telphone = #{telphone,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="zhumeng.com.uimei.model.dbo.wx.TWxUser" >
+    update t_wx_user
+    set openid = #{openid,jdbcType=VARCHAR},
+      xc_openid = #{xcOpenid,jdbcType=VARCHAR},
+      unionid = #{unionid,jdbcType=VARCHAR},
+      nick = #{nick,jdbcType=VARCHAR},
+      pic = #{pic,jdbcType=VARCHAR},
+      sex = #{sex,jdbcType=VARCHAR},
+      subscribe_flag = #{subscribeFlag,jdbcType=VARCHAR},
+      subscribe_date = #{subscribeDate,jdbcType=TIMESTAMP},
+      unsubscribe_date = #{unsubscribeDate,jdbcType=TIMESTAMP},
+      last_ip = #{lastIp,jdbcType=VARCHAR},
+      last_date = #{lastDate,jdbcType=TIMESTAMP},
+      name = #{name,jdbcType=VARCHAR},
+      telphone = #{telphone,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

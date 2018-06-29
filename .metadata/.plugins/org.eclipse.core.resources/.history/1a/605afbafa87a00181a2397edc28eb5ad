@@ -1,0 +1,22 @@
+package zhumeng.com.uimei.interceptor;
+
+import java.lang.reflect.Method;
+
+import net.sf.cglib.proxy.MethodInterceptor;
+import net.sf.cglib.proxy.MethodProxy;
+
+/**
+ * HttpServletRequest 代理类
+ * @author z
+ */
+public class ServletRequestCglibProxy implements MethodInterceptor{
+
+	
+	@Override
+	public Object intercept(Object paramObject, Method paramMethod,
+			Object[] paramArrayOfObject, MethodProxy paramMethodProxy) throws Throwable {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

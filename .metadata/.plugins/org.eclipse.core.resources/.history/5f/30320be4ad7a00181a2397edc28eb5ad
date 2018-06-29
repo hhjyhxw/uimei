@@ -1,0 +1,97 @@
+package zhumeng.com.uimei.interceptor;
+
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+
+import javax.servlet.ServletRequest;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import net.sf.cglib.proxy.Enhancer;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.web.servlet.HandlerInterceptor;
+import org.springframework.web.servlet.ModelAndView;
+
+/**
+ *对中文进行处理
+ */
+public class CharaterInterceptor implements HandlerInterceptor {
+	
+	
+	public final static Logger log = LoggerFactory.getLogger(CharaterInterceptor.class);
+	
+	public boolean preHandle(HttpServletRequest request,
+			HttpServletResponse response, Object handler) throws Exception {
+		
+		 //解决以Post方式提交的中文乱码问题
+         request.setCharacterEncoding("UTF-8");
+         response.setCharacterEncoding("UTF-8");
+         response.setContentType("text/html;charset=UTF-8");
+         //获取HttpServletRequest对象的代理对象
+		 // ServletRequest requestProxy = getHttpServletRequestProxy(request);
+		  //request = (HttpServletRequest) requestProxy;
+         //对get方法进行处理
+         if(request.getMethod().equalsIgnoreCase("get")){
+        	 request = getHttpServletRequestProxyBiCglib(request);
+         }
+		return true;
+	}
+
+	
+
+
+	public void postHandle(HttpServletRequest request,
+			HttpServletResponse response, Object handler,
+			ModelAndView modelAndView) throws Exception {
+		
+		
+	}
+
+	public void afterCompletion(HttpServletRequest request,
+			HttpServletResponse response, Object handler, Exception ex)
+			throws Exception {
+	}
+	
+	
+
+	/**
+	 * 对get 方法请求进行处理（生产ServletRequest的代理对象，并对request中的方法调用做处理）
+	 * @param request
+	 * @return
+	 */
+	private ServletRequest getHttpServletRequestProxy(HttpServletRequest request) {
+		ServletRequest proxy  = (ServletRequest) Proxy.newProxyInstance(request.getClass().getClassLoader(),
+				request.getClass().getInterfaces(),
+				new InvocationHandler(){
+					@Override
+					public Object invoke(Object proxy, Method method,
+							Object[] args) throws Throwable {
+						if(request.getMethod().equalsIgnoreCase("get") &&  method.getName().equals("getParameter")){
+							String value = (String) method.invoke(request, args);
+							if(value==null){                         
+								return null;                             
+							}
+							//解决以get方式提交的中文乱码问题
+							return new String(value.getBytes("iso8859-1"),"UTF-8");
+						}else{
+							 //直接调用相应的方法进行处理
+							return method.invoke(request, args);
+						}
+					}
+				}
+		);		
+		return proxy;
+	}
+
+	
+	private HttpServletRequest getHttpServletRequestProxyBiCglib(HttpServletRequest request) {
+		HttpServletRequest proxy  = new MethodInterceptor(request.getClass().getClassLoader(),
+		//通过Enhancer 创建代理对象
+	    private Enhancer enhancer = new Enhancer();
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

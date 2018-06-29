@@ -1,0 +1,33 @@
+#server.port=8080
+#server.context-path=/uimei
+#spring redis session \u5171\u4eab
+spring.session.store-type=Redis
+spring.redis.database=0
+spring.redis.host=127.0.0.1
+#spring.redis.password=nnyr2018
+spring.redis.password=
+spring.redis.port=6379
+spring.redis.pool.max-idle=25
+spring.redis.pool.min-idle=1
+spring.redis.pool.max-active=25
+spring.redis.pool.max-wait=1000
+
+ 
+spring.freemarker.template-loader-path=classpath:/templates
+#\u8bbe\u5b9a\u9759\u6001\u6587\u4ef6\u8def\u5f84\uff0cjs,css\u7b49
+spring.freemarker.allow-request-override=false
+spring.freemarker.cache=false
+spring.freemarker.check-template-location=true
+spring.freemarker.charset=UTF-8
+spring.freemarker.content-type=text/html
+spring.freemarker.expose-spring-macro-helpers=true
+spring.freemarker.expose-request-attributes=true
+spring.freemarker.expose-session-attributes=true
+spring.freemarker.request-context-attribute=request
+spring.freemarker.suffix=.ftl
+
+logging.level.org.springframework=INFO
+logging.level.org.spring.springboot.dao=INFO
+
+//session \u4f1a\u8bdd\u5931\u6548\u65f6\u95f4
+server.session.timeout=1800

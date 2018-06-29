@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="zhumeng.com.uimei.dao.wx.TWxAppMapper" >
+  <resultMap id="BaseResultMap" type="zhumeng.com.uimei.model.dbo.wx.TWxApp" >
+    <id column="ID" property="id" jdbcType="BIGINT" />
+    <result column="wechar_number" property="wecharNumber" jdbcType="VARCHAR" />
+    <result column="account_number" property="accountNumber" jdbcType="VARCHAR" />
+    <result column="url" property="url" jdbcType="VARCHAR" />
+    <result column="token" property="token" jdbcType="VARCHAR" />
+    <result column="appid" property="appid" jdbcType="VARCHAR" />
+    <result column="appsecret" property="appsecret" jdbcType="VARCHAR" />
+    <result column="encodingaeskey" property="encodingaeskey" jdbcType="VARCHAR" />
+    <result column="partner" property="partner" jdbcType="VARCHAR" />
+    <result column="paysignkey" property="paysignkey" jdbcType="VARCHAR" />
+    <result column="domain_name" property="domainName" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="modify_Time" property="modifyTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    ID, wechar_number, account_number, url, token, appid, appsecret, encodingaeskey, 
+    partner, paysignkey, domain_name, create_time, modify_Time
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from t_wx_app
+    where ID = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from t_wx_app
+    where ID = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="zhumeng.com.uimei.model.dbo.wx.TWxApp" >
+    insert into t_wx_app (ID, wechar_number, account_number, 
+      url, token, appid, 
+      appsecret, encodingaeskey, partner, 
+      paysignkey, domain_name, create_time, 
+      modify_Time)
+    values (#{id,jdbcType=BIGINT}, #{wecharNumber,jdbcType=VARCHAR}, #{accountNumber,jdbcType=VARCHAR}, 
+      #{url,jdbcType=VARCHAR}, #{token,jdbcType=VARCHAR}, #{appid,jdbcType=VARCHAR}, 
+      #{appsecret,jdbcType=VARCHAR}, #{encodingaeskey,jdbcType=VARCHAR}, #{partner,jdbcType=VARCHAR}, 
+      #{paysignkey,jdbcType=VARCHAR}, #{domainName,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, 
+      #{modifyTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="zhumeng.com.uimei.model.dbo.wx.TWxApp" >
+    insert into t_wx_app
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        ID,
+      </if>
+      <if test="wecharNumber != null" >
+        wechar_number,
+      </if>
+      <if test="accountNumber != null" >
+        account_number,
+      </if>
+      <if test="url != null" >
+        url,
+      </if>
+      <if test="token != null" >
+        token,
+      </if>
+      <if test="appid != null" >
+        appid,
+      </if>
+      <if test="appsecret != null" >
+        appsecret,
+      </if>
+      <if test="encodingaeskey != null" >
+        encodingaeskey,
+      </if>
+      <if test="partner != null" >
+        partner,
+      </if>
+      <if test="paysignkey != null" >
+        paysignkey,
+      </if>
+      <if test="domainName != null" >
+        domain_name,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+      <if test="modifyTime != null" >
+        modify_Time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="wecharNumber != null" >
+        #{wecharNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="accountNumber != null" >
+        #{accountNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="url != null" >
+        #{url,jdbcType=VARCHAR},
+      </if>
+      <if test="token != null" >
+        #{token,jdbcType=VARCHAR},
+      </if>
+      <if test="appid != null" >
+        #{appid,jdbcType=VARCHAR},
+      </if>
+      <if test="appsecret != null" >
+        #{appsecret,jdbcType=VARCHAR},
+      </if>
+      <if test="encodingaeskey != null" >
+        #{encodingaeskey,jdbcType=VARCHAR},
+      </if>
+      <if test="partner != null" >
+        #{partner,jdbcType=VARCHAR},
+      </if>
+      <if test="paysignkey != null" >
+        #{paysignkey,jdbcType=VARCHAR},
+      </if>
+      <if test="domainName != null" >
+        #{domainName,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="modifyTime != null" >
+        #{modifyTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="zhumeng.com.uimei.model.dbo.wx.TWxApp" >
+    update t_wx_app
+    <set >
+      <if test="wecharNumber != null" >
+        wechar_number = #{wecharNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="accountNumber != null" >
+        account_number = #{accountNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="url != null" >
+        url = #{url,jdbcType=VARCHAR},
+      </if>
+      <if test="token != null" >
+        token = #{token,jdbcType=VARCHAR},
+      </if>
+      <if test="appid != null" >
+        appid = #{appid,jdbcType=VARCHAR},
+      </if>
+      <if test="appsecret != null" >
+        appsecret = #{appsecret,jdbcType=VARCHAR},
+      </if>
+      <if test="encodingaeskey != null" >
+        encodingaeskey = #{encodingaeskey,jdbcType=VARCHAR},
+      </if>
+      <if test="partner != null" >
+        partner = #{partner,jdbcType=VARCHAR},
+      </if>
+      <if test="paysignkey != null" >
+        paysignkey = #{paysignkey,jdbcType=VARCHAR},
+      </if>
+      <if test="domainName != null" >
+        domain_name = #{domainName,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="modifyTime != null" >
+        modify_Time = #{modifyTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where ID = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="zhumeng.com.uimei.model.dbo.wx.TWxApp" >
+    update t_wx_app
+    set wechar_number = #{wecharNumber,jdbcType=VARCHAR},
+      account_number = #{accountNumber,jdbcType=VARCHAR},
+      url = #{url,jdbcType=VARCHAR},
+      token = #{token,jdbcType=VARCHAR},
+      appid = #{appid,jdbcType=VARCHAR},
+      appsecret = #{appsecret,jdbcType=VARCHAR},
+      encodingaeskey = #{encodingaeskey,jdbcType=VARCHAR},
+      partner = #{partner,jdbcType=VARCHAR},
+      paysignkey = #{paysignkey,jdbcType=VARCHAR},
+      domain_name = #{domainName,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      modify_Time = #{modifyTime,jdbcType=TIMESTAMP}
+    where ID = #{id,jdbcType=BIGINT}
+  </update>
+  
+   <select id="findForList" parameterType="zhumeng.com.uimei.model.dbo.wx.TWxApp" resultMap="BaseResultMap">
+		 select
+		 <include refid="Base_Column_List" />
+   		 from t_wx_app t
+		<where>
+     		 <if test="id != null" >
+      		  	and t.id =  #{id,jdbcType=BIGINT}
+     		 </if>
+     		 <if test="appid != null" >
+      		  		and t.appid =  #{appid,jdbcType=BIGINT}
+     		 </if>
+		</where>
+	</select>
+	
+	<select id="findByPage" parameterType="zhumeng.com.uimei.model.dbo.wx.TWxApp"
+		resultMap="BaseResultMap">
+			 select 
+	    <include refid="Base_Column_List" />
+	    from t_wx_app t
+	    <trim prefixOverrides="and | or">
+			<where>
+     		 <if test="id != null" >
+      		  	and t.id =  #{id,jdbcType=BIGINT}
+     		 </if>
+		</where>
+		</trim>
+		order by t.modify_Time desc
+	</select>
+</mapper>

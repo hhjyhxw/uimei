@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="zhumeng.com.uimei.dao.wx.TWxMenuMapper" >
+  <resultMap id="BaseResultMap" type="zhumeng.com.uimei.model.dbo.wx.TWxMenu" >
+    <id column="ID" property="id" jdbcType="BIGINT" />
+    <result column="app_id" property="appId" jdbcType="BIGINT" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="url" property="url" jdbcType="VARCHAR" />
+    <result column="menu_level" property="menuLevel" jdbcType="INTEGER" />
+    <result column="order_no" property="orderNo" jdbcType="BIGINT" />
+    <result column="menu_type" property="menuType" jdbcType="VARCHAR" />
+    <result column="parent_id" property="parentId" jdbcType="BIGINT" />
+    <result column="is_use" property="isUse" jdbcType="VARCHAR" />
+    <result column="pagepath" property="pagepath" jdbcType="VARCHAR" />
+    <result column="xcx_appid" property="xcxAppid" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="modify_Time" property="modifyTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    ID, app_id, name, url, menu_level, order_no, menu_type, parent_id, is_use, pagepath, 
+    xcx_appid, create_time, modify_Time
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from t_wx_menu
+    where ID = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from t_wx_menu
+    where ID = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="zhumeng.com.uimei.model.dbo.wx.TWxMenu" >
+    insert into t_wx_menu (ID, app_id, name, 
+      url, menu_level, order_no, 
+      menu_type, parent_id, is_use, 
+      pagepath, xcx_appid, create_time, 
+      modify_Time)
+    values (#{id,jdbcType=BIGINT}, #{appId,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, 
+      #{url,jdbcType=VARCHAR}, #{menuLevel,jdbcType=INTEGER}, #{orderNo,jdbcType=BIGINT}, 
+      #{menuType,jdbcType=VARCHAR}, #{parentId,jdbcType=BIGINT}, #{isUse,jdbcType=VARCHAR}, 
+      #{pagepath,jdbcType=VARCHAR}, #{xcxAppid,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, 
+      #{modifyTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="zhumeng.com.uimei.model.dbo.wx.TWxMenu" >
+    insert into t_wx_menu
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        ID,
+      </if>
+      <if test="appId != null" >
+        app_id,
+      </if>
+      <if test="name != null" >
+        name,
+      </if>
+      <if test="url != null" >
+        url,
+      </if>
+      <if test="menuLevel != null" >
+        menu_level,
+      </if>
+      <if test="orderNo != null" >
+        order_no,
+      </if>
+      <if test="menuType != null" >
+        menu_type,
+      </if>
+      <if test="parentId != null" >
+        parent_id,
+      </if>
+      <if test="isUse != null" >
+        is_use,
+      </if>
+      <if test="pagepath != null" >
+        pagepath,
+      </if>
+      <if test="xcxAppid != null" >
+        xcx_appid,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+      <if test="modifyTime != null" >
+        modify_Time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="appId != null" >
+        #{appId,jdbcType=BIGINT},
+      </if>
+      <if test="name != null" >
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="url != null" >
+        #{url,jdbcType=VARCHAR},
+      </if>
+      <if test="menuLevel != null" >
+        #{menuLevel,jdbcType=INTEGER},
+      </if>
+      <if test="orderNo != null" >
+        #{orderNo,jdbcType=BIGINT},
+      </if>
+      <if test="menuType != null" >
+        #{menuType,jdbcType=VARCHAR},
+      </if>
+      <if test="parentId != null" >
+        #{parentId,jdbcType=BIGINT},
+      </if>
+      <if test="isUse != null" >
+        #{isUse,jdbcType=VARCHAR},
+      </if>
+      <if test="pagepath != null" >
+        #{pagepath,jdbcType=VARCHAR},
+      </if>
+      <if test="xcxAppid != null" >
+        #{xcxAppid,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="modifyTime != null" >
+        #{modifyTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="zhumeng.com.uimei.model.dbo.wx.TWxMenu" >
+    update t_wx_menu
+    <set >
+      <if test="appId != null" >
+        app_id = #{appId,jdbcType=BIGINT},
+      </if>
+      <if test="name != null" >
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="url != null" >
+        url = #{url,jdbcType=VARCHAR},
+      </if>
+      <if test="menuLevel != null" >
+        menu_level = #{menuLevel,jdbcType=INTEGER},
+      </if>
+      <if test="orderNo != null" >
+        order_no = #{orderNo,jdbcType=BIGINT},
+      </if>
+      <if test="menuType != null" >
+        menu_type = #{menuType,jdbcType=VARCHAR},
+      </if>
+      <if test="parentId != null" >
+        parent_id = #{parentId,jdbcType=BIGINT},
+      </if>
+      <if test="isUse != null" >
+        is_use = #{isUse,jdbcType=VARCHAR},
+      </if>
+      <if test="pagepath != null" >
+        pagepath = #{pagepath,jdbcType=VARCHAR},
+      </if>
+      <if test="xcxAppid != null" >
+        xcx_appid = #{xcxAppid,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="modifyTime != null" >
+        modify_Time = #{modifyTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where ID = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="zhumeng.com.uimei.model.dbo.wx.TWxMenu" >
+    update t_wx_menu
+    set app_id = #{appId,jdbcType=BIGINT},
+      name = #{name,jdbcType=VARCHAR},
+      url = #{url,jdbcType=VARCHAR},
+      menu_level = #{menuLevel,jdbcType=INTEGER},
+      order_no = #{orderNo,jdbcType=BIGINT},
+      menu_type = #{menuType,jdbcType=VARCHAR},
+      parent_id = #{parentId,jdbcType=BIGINT},
+      is_use = #{isUse,jdbcType=VARCHAR},
+      pagepath = #{pagepath,jdbcType=VARCHAR},
+      xcx_appid = #{xcxAppid,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      modify_Time = #{modifyTime,jdbcType=TIMESTAMP}
+    where ID = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

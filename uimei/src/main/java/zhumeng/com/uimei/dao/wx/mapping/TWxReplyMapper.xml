@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="zhumeng.com.uimei.dao.wx.TWxReplyMapper" >
+  <resultMap id="BaseResultMap" type="zhumeng.com.uimei.model.dbo.wx.TWxReply" >
+    <id column="ID" property="id" jdbcType="BIGINT" />
+    <result column="app_id" property="appId" jdbcType="BIGINT" />
+    <result column="msg_key" property="msgKey" jdbcType="VARCHAR" />
+    <result column="msg_type" property="msgType" jdbcType="VARCHAR" />
+    <result column="msg_event" property="msgEvent" jdbcType="VARCHAR" />
+    <result column="modify_Time" property="modifyTime" jdbcType="TIMESTAMP" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="zhumeng.com.uimei.model.dbo.wx.TWxReply" extends="BaseResultMap" >
+    <result column="reply_msg" property="replyMsg" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    ID, app_id, msg_key, msg_type, msg_event, modify_Time, create_time
+  </sql>
+  <sql id="Blob_Column_List" >
+    reply_msg
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from t_wx_reply
+    where ID = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from t_wx_reply
+    where ID = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="zhumeng.com.uimei.model.dbo.wx.TWxReply" >
+    insert into t_wx_reply (ID, app_id, msg_key, 
+      msg_type, msg_event, modify_Time, 
+      create_time, reply_msg)
+    values (#{id,jdbcType=BIGINT}, #{appId,jdbcType=BIGINT}, #{msgKey,jdbcType=VARCHAR}, 
+      #{msgType,jdbcType=VARCHAR}, #{msgEvent,jdbcType=VARCHAR}, #{modifyTime,jdbcType=TIMESTAMP}, 
+      #{createTime,jdbcType=TIMESTAMP}, #{replyMsg,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="zhumeng.com.uimei.model.dbo.wx.TWxReply" >
+    insert into t_wx_reply
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        ID,
+      </if>
+      <if test="appId != null" >
+        app_id,
+      </if>
+      <if test="msgKey != null" >
+        msg_key,
+      </if>
+      <if test="msgType != null" >
+        msg_type,
+      </if>
+      <if test="msgEvent != null" >
+        msg_event,
+      </if>
+      <if test="modifyTime != null" >
+        modify_Time,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+      <if test="replyMsg != null" >
+        reply_msg,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="appId != null" >
+        #{appId,jdbcType=BIGINT},
+      </if>
+      <if test="msgKey != null" >
+        #{msgKey,jdbcType=VARCHAR},
+      </if>
+      <if test="msgType != null" >
+        #{msgType,jdbcType=VARCHAR},
+      </if>
+      <if test="msgEvent != null" >
+        #{msgEvent,jdbcType=VARCHAR},
+      </if>
+      <if test="modifyTime != null" >
+        #{modifyTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="replyMsg != null" >
+        #{replyMsg,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="zhumeng.com.uimei.model.dbo.wx.TWxReply" >
+    update t_wx_reply
+    <set >
+      <if test="appId != null" >
+        app_id = #{appId,jdbcType=BIGINT},
+      </if>
+      <if test="msgKey != null" >
+        msg_key = #{msgKey,jdbcType=VARCHAR},
+      </if>
+      <if test="msgType != null" >
+        msg_type = #{msgType,jdbcType=VARCHAR},
+      </if>
+      <if test="msgEvent != null" >
+        msg_event = #{msgEvent,jdbcType=VARCHAR},
+      </if>
+      <if test="modifyTime != null" >
+        modify_Time = #{modifyTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="replyMsg != null" >
+        reply_msg = #{replyMsg,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where ID = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="zhumeng.com.uimei.model.dbo.wx.TWxReply" >
+    update t_wx_reply
+    set app_id = #{appId,jdbcType=BIGINT},
+      msg_key = #{msgKey,jdbcType=VARCHAR},
+      msg_type = #{msgType,jdbcType=VARCHAR},
+      msg_event = #{msgEvent,jdbcType=VARCHAR},
+      modify_Time = #{modifyTime,jdbcType=TIMESTAMP},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      reply_msg = #{replyMsg,jdbcType=LONGVARCHAR}
+    where ID = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="zhumeng.com.uimei.model.dbo.wx.TWxReply" >
+    update t_wx_reply
+    set app_id = #{appId,jdbcType=BIGINT},
+      msg_key = #{msgKey,jdbcType=VARCHAR},
+      msg_type = #{msgType,jdbcType=VARCHAR},
+      msg_event = #{msgEvent,jdbcType=VARCHAR},
+      modify_Time = #{modifyTime,jdbcType=TIMESTAMP},
+      create_time = #{createTime,jdbcType=TIMESTAMP}
+    where ID = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

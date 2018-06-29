@@ -1,0 +1,7 @@
+package zhumeng.com.uimei.interceptor;
+
+import net.sf.cglib.proxy.MethodInterceptor;
+
+public class ServletRequestCglibProxy implements MethodInterceptor{
+
+}
