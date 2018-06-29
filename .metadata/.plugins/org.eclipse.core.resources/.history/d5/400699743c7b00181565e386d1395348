@@ -130,7 +130,6 @@ public class WxAppController{
 	public String testGETmethedParamer(Long id, HttpServletResponse response,HttpServletRequest request) throws Exception {
 		String name = request.getParameter("name");
 		String ss = request.getParameter("ss");
-		logger.error("name====="+name+"===ss==="+ss);
 		ResponseUtils.renderJson(response,"0001");
 		return null;
 	}

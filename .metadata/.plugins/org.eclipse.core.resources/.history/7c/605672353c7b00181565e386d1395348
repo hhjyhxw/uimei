@@ -127,11 +127,14 @@ public class WxAppController{
 	 * get方法请求中文测试
 	 */
 	@RequestMapping(value = "/testGETmethedParamer")
-	public String testGETmethedParamer(Long id, HttpServletResponse response,HttpServletRequest request) throws Exception {
-		String name = request.getParameter("name");
-		String ss = request.getParameter("ss");
-		logger.error("name====="+name+"===ss==="+ss);
-		ResponseUtils.renderJson(response,"0001");
+	public String testGETmethedParamer(Long id, HttpServletResponse response) throws Exception {
+		try{
+			 wxAppService.delete(id);
+			 ResponseUtils.renderJson(response,"0000");
+		}catch(Exception e){
+			e.printStackTrace();
+			 ResponseUtils.renderJson(response,"0001");
+		}
 		return null;
 	}
 }

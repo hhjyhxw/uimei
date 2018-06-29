@@ -14048,3 +14048,191 @@ Contains: Could not delete: F:\20180504eclipses\myproducteclipse\workspace\uimei
 
 !ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2018-06-29 09:21:01.801
 !MESSAGE properties loading for project 'uimei-model'
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-06-29 09:34:05.519
+!MESSAGE JavaBuilder handling CoreException while cleaning: uimei
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:816)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.clean(JavaBuilder.java:293)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:736)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog.doClean(CleanDialog.java:318)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog$1.runInWorkspace(CleanDialog.java:151)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Could not delete '/uimei/target/classes/static'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:351)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:798)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1983)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.clean(JavaBuilder.java:293)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:736)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog.doClean(CleanDialog.java:318)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog$1.runInWorkspace(CleanDialog.java:151)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: F:\20180504eclipses\myproducteclipse\workspace\uimei\target\classes\static\layui\src\images.
+Contains: Could not delete: F:\20180504eclipses\myproducteclipse\workspace\uimei\target\classes\static\layui\src.
+Contains: Could not delete: F:\20180504eclipses\myproducteclipse\workspace\uimei\target\classes\static\layui.
+Contains: Could not delete: F:\20180504eclipses\myproducteclipse\workspace\uimei\target\classes\static.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2018-06-29 09:34:05.519
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2018-06-29 09:34:05.519
+!MESSAGE Could not delete '/uimei/target/classes/static'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:351)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:798)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1983)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.clean(JavaBuilder.java:293)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:736)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog.doClean(CleanDialog.java:318)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog$1.runInWorkspace(CleanDialog.java:151)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: F:\20180504eclipses\myproducteclipse\workspace\uimei\target\classes\static\layui\src\images.
+Contains: Could not delete: F:\20180504eclipses\myproducteclipse\workspace\uimei\target\classes\static\layui\src.
+Contains: Could not delete: F:\20180504eclipses\myproducteclipse\workspace\uimei\target\classes\static\layui.
+Contains: Could not delete: F:\20180504eclipses\myproducteclipse\workspace\uimei\target\classes\static.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2018-06-29 09:34:05.519
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2018-06-29 09:34:05.519
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2018-06-29 09:34:05.519
+!MESSAGE Could not delete: F:\20180504eclipses\myproducteclipse\workspace\uimei\target\classes\static\layui\src\images.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2018-06-29 09:34:05.519
+!MESSAGE Could not delete: F:\20180504eclipses\myproducteclipse\workspace\uimei\target\classes\static\layui\src.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2018-06-29 09:34:05.519
+!MESSAGE Could not delete: F:\20180504eclipses\myproducteclipse\workspace\uimei\target\classes\static\layui.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2018-06-29 09:34:05.520
+!MESSAGE Could not delete: F:\20180504eclipses\myproducteclipse\workspace\uimei\target\classes\static.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2018-06-29 09:34:05.603
+!MESSAGE properties loading for project 'uimei'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2018-06-29 09:34:05.605
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2018-06-29 09:34:05.605
+!MESSAGE loading file 'config.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2018-06-29 09:34:05.606
+!MESSAGE loading file 'jdbc.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2018-06-29 09:34:10.054
+!MESSAGE properties loading for project 'uimei'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2018-06-29 09:34:10.056
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2018-06-29 09:34:10.057
+!MESSAGE loading file 'config.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2018-06-29 09:34:10.058
+!MESSAGE loading file 'jdbc.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2018-06-29 09:34:10.059
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2018-06-29 09:35:05.440
+!MESSAGE properties loading for project 'uimei'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2018-06-29 09:35:05.442
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2018-06-29 09:35:05.443
+!MESSAGE loading file 'config.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2018-06-29 09:35:05.444
+!MESSAGE loading file 'jdbc.properties'
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-06-29 09:35:05.734
+!MESSAGE JavaBuilder handling CoreException while building: uimei
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not write file: F:\20180504eclipses\myproducteclipse\workspace\uimei\target\classes.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:50)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.checkTargetIsNotWritable(LocalFile.java:90)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.mkdir(LocalFile.java:304)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1132)
+	at org.eclipse.core.internal.resources.Folder.internalCreate(Folder.java:180)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:107)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.createOutputFolder(NameEnvironment.java:255)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:120)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:604)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:169)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 272 2018-06-29 09:35:05.734
+!MESSAGE Could not write file: F:\20180504eclipses\myproducteclipse\workspace\uimei\target\classes.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2018-06-29 09:35:25.379
+!MESSAGE properties loading for project 'uimei-model'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2018-06-29 09:35:25.380
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2018-06-29 09:35:27.643
+!MESSAGE properties loading for project 'uimei'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2018-06-29 09:35:27.645
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2018-06-29 09:35:27.646
+!MESSAGE loading file 'config.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2018-06-29 09:35:27.646
+!MESSAGE loading file 'jdbc.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2018-06-29 09:35:27.647
+!MESSAGE loading file 'pom.properties'
